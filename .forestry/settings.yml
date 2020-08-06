@@ -18,10 +18,10 @@ sections:
 - type: document
   path: src/_data/tokens.json
   label: Theme settings
-upload_dir: src/images
-public_path: "/images"
+upload_dir: https://res.cloudinary.com/floriade/image/upload
+public_path: https://res.cloudinary.com/floriade/image/upload
 front_matter_path: ''
-use_front_matter_path: false
+use_front_matter_path: true
 file_template: ":filename:"
 build:
   preview_env:
