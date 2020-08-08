@@ -1,0 +1,7 @@
+---
+label: Date List
+hide_body: true
+fields:
+- type: list
+  name: Shop closed dates
+  label: Shop closed dates

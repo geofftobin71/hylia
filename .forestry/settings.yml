@@ -21,7 +21,6 @@ sections:
 - type: document
   path: src/_data/shop-closed-dates.json
   label: Shop Closed Dates
-  match: "**/*"
 upload_dir: ''
 public_path: https://res.cloudinary.com/floriade/image/upload
 front_matter_path: ''
