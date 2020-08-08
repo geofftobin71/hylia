@@ -2,30 +2,12 @@
 label: Date List
 hide_body: true
 fields:
-- name: dates
-  type: field_group_list
-  fields:
-  - name: date
-    type: datetime
-    label: Date
-    description: ''
-    config:
-      required: false
-      date_format: Do MMM YYYY
-      time_format: 
-      display_utc: false
-      export_format: YYYY-MM-DD
-  - name: title
-    type: text
-    config:
-      required: false
-    label: Title
-    hidden: true
-    default: default
+- name: date
+  type: list
   config:
+    use_select: false
     min: 
     max: 
-    labelField: title
-  label: Dates
+  label: Date
 pages:
 - src/_data/shop-closed-dates.json
