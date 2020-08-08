@@ -21,6 +21,7 @@ fields:
       required: false
     label: Title
     hidden: true
+    default: default
   config:
     min: 
     max: 
