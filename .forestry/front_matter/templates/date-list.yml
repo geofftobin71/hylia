@@ -1,4 +1,22 @@
 ---
 label: Date List
 hide_body: true
-fields: []
+fields:
+- name: dates
+  type: field_group_list
+  fields:
+  - name: date
+    type: datetime
+    label: Date
+    description: ''
+    config:
+      required: true
+      date_format: Do MMM YYYY
+      time_format: 
+      display_utc: false
+      export_format: YYYY-MM-DD
+  config:
+    min: 
+    max: 
+    labelField: 
+  label: Dates
