@@ -5,12 +5,18 @@ fields:
 - name: dates
   type: field_group_list
   fields:
+  - name: title
+    type: text
+    config:
+      required: false
+    label: Title
+    hidden: true
   - name: date
     type: datetime
     label: Date
     description: ''
     config:
-      required: true
+      required: false
       date_format: Do MMM YYYY
       time_format: 
       display_utc: false
