@@ -20,3 +20,5 @@ fields:
     max: 
     labelField: 
   label: Dates
+pages:
+- src/_data/shop-closed-dates.json
